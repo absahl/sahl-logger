@@ -5,15 +5,19 @@
 #include <stdio.h>
 #include <string.h>
 
-void slog_debug(const char* message)
+static void slog_format(const char* tag, const char* message)
 {
-    const char* tag = "DEBUG";
     time_t now = {0};
     const char* now_str = NULL;
 
     time(&now);
     now_str = ctime(&now);
     printf("%.*s %s %s\n", (int)(strlen(now_str) - 1), now_str, tag, message);
+}
+
+void slog_debug(const char* message)
+{
+    slog_format("DEBUG", message);
 }
 
 #endif
