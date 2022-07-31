@@ -2,6 +2,9 @@
 
 int main()
 {
-    slog_debug("hello world!");
+    slog_debug("debug log");
+    slog_info("info log");
+    slog_warn("warn log");
+    slog_error("error log");
     return 0;
 }

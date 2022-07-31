@@ -20,4 +20,19 @@ void slog_debug(const char* message)
     slog_format("DEBUG", message);
 }
 
+void slog_info(const char* message)
+{
+    slog_format("INFO", message);
+}
+
+void slog_warn(const char* message)
+{
+    slog_format("WARN", message);
+}
+
+void slog_error(const char* message)
+{
+    slog_format("ERROR", message);
+}
+
 #endif
