@@ -2,6 +2,6 @@
 
 int main()
 {
-    log_debug("hello world!");
+    slog_debug("hello world!");
     return 0;
 }

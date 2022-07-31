@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void log_debug(const char* message)
+void slog_debug(const char* message)
 {
     const char* tag = "DEBUG";
     time_t now = {0};
