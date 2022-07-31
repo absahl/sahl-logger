@@ -2,6 +2,6 @@
 
 int main()
 {
-    stupid_log("print", "hello world!");
+    log_debug("print", "hello world!");
     return 0;
 }

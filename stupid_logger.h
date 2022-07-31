@@ -4,7 +4,7 @@
 #include <time.h>
 #include <stdio.h>
 
-void stupid_log(const char* tag, const char* message)
+void log_debug(const char* tag, const char* message)
 {
     time_t now;
     time(&now);
