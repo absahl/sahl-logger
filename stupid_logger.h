@@ -3,12 +3,17 @@
 
 #include <time.h>
 #include <stdio.h>
+#include <string.h>
 
-void log_debug(const char* tag, const char* message)
+void log_debug(const char* message)
 {
-    time_t now;
+    const char* tag = "DEBUG";
+    time_t now = {0};
+    const char* now_str = NULL;
+
     time(&now);
-    printf("%s [%s]: %s\n", ctime(&now), tag, message);
+    now_str = ctime(&now);
+    printf("%.*s %s %s\n", (int)(strlen(now_str) - 1), now_str, tag, message);
 }
 
 #endif
