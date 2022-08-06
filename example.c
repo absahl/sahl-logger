@@ -2,9 +2,6 @@
 
 int main()
 {
-    slog_debug("debug log");
-    slog_info("info log");
-    slog_warn("warn log");
-    slog_error("error log");
+    slog_debug("This is very %s. But I would rather want it to be %s%c %d out of %d to be exact%c", "fine", "amazing", '.', 100, 100, '!');
     return 0;
 }
