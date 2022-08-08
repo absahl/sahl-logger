@@ -1,2 +1,2 @@
-# stupid-logger
-In progress. Stupid things aren't easy.
+# sahl-logger
+In progress.

@@ -1,5 +1,5 @@
-#ifndef STUPID_LOGGER_H
-#define STUPID_LOGGER_H
+#ifndef SAHL_LOGGER_H
+#define SAHL_LOGGER_H
 
 #include <time.h>
 #include <stdio.h>

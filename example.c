@@ -1,4 +1,4 @@
-#include "stupid_logger.h"
+#include "sahl_logger.h"
 
 int main()
 {
